@@ -32,4 +32,4 @@ jobs:
           clientSecret: ${{ secrets.CLIENT_SECRET }}
           operation: PATCH_RUN
           runId: ${{fromJson(inputs.port_payload).context.runId}}
-          logMessage: An example of a log message
+          logMessage: Message sent from the pipeline
