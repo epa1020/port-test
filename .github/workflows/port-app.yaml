@@ -1,4 +1,4 @@
-name: UPSERT workflow
+name: portwf
 on:
   workflow_dispatch:
     inputs:
